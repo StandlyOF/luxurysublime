@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Obsolescencia Programada</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #2e2e2e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      margin: 10px 0;
+      border-radius: 10px;
+      border: 2px solid #ccc;
+    }
+
+    iframe {
+      max-width: 100%;
+      margin-top: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #c0392b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    select {
+      padding: 5px;
+      margin-top: 10px;
+    }
+
+    .banner {
+      background-image: url('https://cdn.pixabay.com/photo/2020/02/14/09/29/electronic-waste-4849225_1280.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    footer {
+      background-color: #2e2e2e;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- a) Texto -->
+  <header>
+    <h1>Obsolescencia Programada</h1>
+    <p>¿Por qué los productos ya no duran como antes?</p>
+  </header>
+
+  <!-- b) Menú -->
+  <nav>
+    <a href="#texto">Texto</a>
+    <a href="#imagenes">Imágenes</a>
+    <a href="#formulario">Formulario</a>
+    <a href="#videos">Video</a>
+    <a href="#audio">Audio</a>
+    <a href="#menu">Menú</a>
+    <a href="#vinculos">Vínculos</a>
+  </nav>
+
+  <!-- i) Banner -->
+  <div class="banner">
+    Tecnología que caduca... ¿intencionalmente?
+  </div>
+
+  <!-- a) Texto -->
+  <section id="texto">
+    <h2>¿Qué es la obsolescencia programada?</h2>
+    <p>
+      La obsolescencia programada es la estrategia de diseñar productos con una vida útil limitada. Esto hace que los consumidores deban reemplazarlos constantemente, generando más ventas, más desechos y más impacto ambiental.
+    </p>
+  </section>
+
+  <!-- g) Botón -->
+  <section>
+    <h2>Reflexión</h2>
+    <button onclick="alert('¡Gracias por reflexionar sobre el consumo consciente!')">¡Actúa ahora!</button>
+  </section>
+
+  <!-- h) Menú desplegable -->
+  <section id="menu">
+    <h2>Selecciona una categoría afectada</h2>
+    <label for="menuSelect">Productos comunes:</label><br>
+    <select id="menuSelect">
+      <option value="celulares">Celulares</option>
+      <option value="laptops">Laptops</option>
+      <option value="electrodomesticos">Electrodomésticos</option>
+    </select>
+  </section>
+
+  <!-- c) Formulario -->
+  <section id="formulario">
+    <h2>¿Te ha pasado?</h2>
+    <form>
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre"><br><br>
+
+      <label for="producto">Producto afectado:</label><br>
+      <input type="text" id="producto" name="producto"><br><br>
+
+      <label for="comentario">Cuéntanos tu experiencia:</label><br>
+      <textarea id="comentario" name="comentario" rows="5" cols="30"></textarea><br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- d) Imágenes -->
+   <section id="imagenes">
+  <h2>Imágenes del problema</h2>
+  <img src="C:\Users\Alejandro\OneDrive\Escritorio\OP.jpg" alt="Desechos electrónicos" width="400">
+  <img src="C:\Users\Alejandro\OneDrive\Escritorio\OP 2.jpg" alt="Basura tecnológica" width="400">
+</section>
+
+  <!-- e) Video -->
+  <section id="videos">
+    <h2>Video educativo</h2>
+    <iframe width="560" height="315" src="https://youtu.be/aBDykqMv0xc?si=OWoIbrMAC1XEUo-o" title="Obsolescencia Programada - DW Documental" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <!-- f) Audio -->
+  <section id="audio">
+    <h2>Podcast sobre obsolescencia</h2>
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1473422767&color=%23ff5500&auto_play=false&show_artwork=true">
+    </iframe>
+  </section>
+
+  <!-- j) Vínculos -->
+  <section id="vinculos">
+    <h2>Más información</h2>
+    <p>Consulta el artículo completo en
+      <a href="https://es.wikipedia.org/wiki/Obsolescencia_programada" target="_blank">Wikipedia</a>.
+    </p>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Sitio educativo sobre Obsolescencia Programada.</p>
+  </footer>
+
+</body>
+</html>
